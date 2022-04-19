@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "mode=dev deno run -A --location=http://localhost:8000 --unstable --no-check server.ts",
+    "start": "deno run -A --location=http://localhost:8000 --unstable --no-check server.ts",
+    "cache": "deno cache --reload server.ts",
+    "vendor": "importMap=importMap.json deno run -A --unstable https://deno.land/x/ultra/vendor.ts"
+  },
+  "importMap": "importMap.json"
+}

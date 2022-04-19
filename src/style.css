@@ -1,0 +1,26 @@
+html {
+  background: #ddd;
+  color: yellow;
+  font-family: monospace;
+}
+
+html,
+body,
+#ultra {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 10vw;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -0.2em;
+}
