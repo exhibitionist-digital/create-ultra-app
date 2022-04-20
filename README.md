@@ -18,7 +18,7 @@ Requires Deno 1.20.6+
 
 You can plug this back into Ultra in the `deno.json` config file.
 
-```json
+```javascript
 {
   "tasks": {
     // tasks omitted for clarity
