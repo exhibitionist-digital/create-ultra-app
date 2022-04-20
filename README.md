@@ -10,7 +10,7 @@ Requires Deno 1.20.6+
 
 **Dev**
 
-`deno task dev` will start a local server on port 8000
+`deno task dev` will start a local server on port 8000.
 
 **Vendor**
 
