@@ -14,9 +14,18 @@ Requires Deno 1.20.6+
 
 **Vendor**
 
-`deno task vendor` will create a vendored import map: `vendorMap.json`. You can
-plug this back into Ultra using the deno.json `importMap`. This will use local
-dependencies when running Ultra in the future.
+`deno task vendor` will create a vendored import map: `vendorMap.json`.
+
+You can plug this back into Ultra in the `deno.json` config file.
+
+```json
+{
+  "tasks": {
+    // tasks omitted for clarity
+  },
+  "importMap": "vendorMap.json" // use either importMap.json or vendorMap.json
+}
+```
 
 **Start**
 
