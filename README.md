@@ -27,10 +27,12 @@ You can plug this back into Ultra in the `deno.json` config file.
 }
 ```
 
+> Note: You will need to restart the server when swapping import maps.
+
 ### Start
 
 `deno task start` will run the server in production mode. Cached ESM imports,
-and no websocket reloader.
+and no websocket reloader. Uses whichever import map you have defined.
 
 ### Cache
 
