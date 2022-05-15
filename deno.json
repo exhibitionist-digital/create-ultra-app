@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "DENO_FUTURE_CHECK=1 deno run -A --location=http://localhost:8000 --unstable --reload server.tsx",
+    "dev": "DENO_FUTURE_CHECK=1 deno run -A --location=http://localhost:8000 --unstable --watch server.tsx",
     "start": "DENO_FUTURE_CHECK=1 deno run -A --location=http://localhost:8000 --unstable server.tsx",
     "cache": "deno cache --reload --no-check server.tsx",
     "vendor": "importMap=importMap.json deno run -A --unstable https://deno.land/x/ultra@v1.0.1/vendor.ts"
