@@ -13,7 +13,6 @@ import helloWorldHandler from "./api/example.ts";
 /**
  * This is the component that will be rendered server side.
  */
-
 function ServerApp({ state }: ServerAppProps) {
   return (
     <Router hook={staticLocationHook(state.url.pathname)}>
