@@ -8,6 +8,6 @@
     "react-dom/server": "https://esm.sh/react-dom@18/server?dev",
     "react-helmet": "https://esm.sh/react-helmet-async?deps=react@18&dev",
     "wouter": "https://esm.sh/wouter?deps=react@18&dev",
-    "@ultra/react": "https://raw.githubusercontent.com/deckchairlabs/ultra/v2/react.ts"
+    "@ultra/react": "http://127.0.0.1:8080/react.ts"
   }
 }

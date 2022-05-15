@@ -1,7 +1,7 @@
 import { Router } from "wouter";
-import createServer from "https://raw.githubusercontent.com/deckchairlabs/ultra/v2/server.ts";
-import { reactHelmetPlugin } from "https://raw.githubusercontent.com/deckchairlabs/ultra/v2/src/plugins/react-helmet.ts";
-import { ServerAppProps } from "https://raw.githubusercontent.com/deckchairlabs/ultra/v2/src/types.ts";
+import createServer from "http://127.0.0.1:8080/server.ts";
+import { reactHelmetPlugin } from "http://127.0.0.1:8080/src/plugins/react-helmet.ts";
+import { ServerAppProps } from "http://127.0.0.1:8080/src/types.ts";
 import App from "./src/app.tsx";
 
 /**
