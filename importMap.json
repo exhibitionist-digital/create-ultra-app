@@ -1,12 +1,13 @@
 {
   "imports": {
-    "react": "https://esm.sh/react@18",
-    "react-dom": "https://esm.sh/react-dom@18",
-    "react-dom/server": "https://esm.sh/react-dom@18/server",
-    "react-helmet": "https://esm.sh/react-helmet-async?deps=react@18",
-    "wouter": "https://esm.sh/wouter?deps=react@18",
-    "swr": "https://esm.sh/swr?deps=react@18",
-    "ultra/cache": "https://deno.land/x/ultra@v1.0.1/cache.js",
-    "app": "./src/app.tsx"
+    "react": "https://esm.sh/react@18?dev",
+    "react/jsx-runtime": "https://esm.sh/react@18/jsx-runtime.js?dev",
+    "react/jsx-dev-runtime": "https://esm.sh/react@18/jsx-dev-runtime.js?dev",
+    "react-dom": "https://esm.sh/react-dom@18?dev",
+    "react-dom/client": "https://esm.sh/react-dom@18/client?dev",
+    "react-dom/server": "https://esm.sh/react-dom@18/server?dev",
+    "react-helmet": "https://esm.sh/react-helmet-async?deps=react@18&dev",
+    "wouter": "https://esm.sh/wouter?deps=react@18&dev",
+    "@ultra/react": "https://raw.githubusercontent.com/deckchairlabs/ultra/v2/react.ts"
   }
 }

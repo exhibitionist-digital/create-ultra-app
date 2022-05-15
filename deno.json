@@ -1,9 +1,17 @@
 {
   "tasks": {
-    "dev": "DENO_FUTURE_CHECK=1 deno run -A --location=http://localhost:8000 --unstable devServer.ts",
-    "start": "DENO_FUTURE_CHECK=1 deno run -A --location=http://localhost:8000 --unstable server.ts",
-    "cache": "deno cache --reload --no-check server.ts",
+    "dev": "DENO_FUTURE_CHECK=1 deno run -A --location=http://localhost:8000 --unstable --reload server.tsx",
+    "start": "DENO_FUTURE_CHECK=1 deno run -A --location=http://localhost:8000 --unstable server.tsx",
+    "cache": "deno cache --reload --no-check server.tsx",
     "vendor": "importMap=importMap.json deno run -A --unstable https://deno.land/x/ultra@v1.0.1/vendor.ts"
   },
-  "importMap": "importMap.json"
+  "importMap": "importMap.json",
+  "compilerOptions": {
+    "jsx": "react-jsxdev",
+    "jsxImportSource": "react",
+    "lib": [
+      "deno.ns",
+      "dom"
+    ]
+  }
 }
