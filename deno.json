@@ -5,5 +5,8 @@
     "cache": "deno cache --reload server.ts",
     "vendor": "importMap=importMap.json deno run -A --unstable https://deno.land/x/ultra@v1.0.1/vendor.ts"
   },
-  "importMap": "importMap.json"
+  "importMap": "importMap.json",
+  "compilerOptions": {
+    "lib": ["ESNext", "dom"]
+  }
 }
