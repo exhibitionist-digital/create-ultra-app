@@ -1,6 +1,6 @@
 import { Helmet, HelmetProvider } from "react-helmet";
 import { Route, Switch } from "wouter";
-import type { RenderState } from "http://127.0.0.1:8080/server.ts";
+import type { RenderState } from "https://raw.githubusercontent.com/deckchairlabs/ultra/v2/server.ts";
 
 type AppProps = {
   state: RenderState;
